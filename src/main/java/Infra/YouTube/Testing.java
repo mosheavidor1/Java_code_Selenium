@@ -1,9 +1,8 @@
 package Infra.YouTube;
 
 
-import Infra.Selenium.Close_Browser;
-import Infra.Selenium.Selenium_Chrome_Driver;
-import Infra.Selenium.Selenium_FireFox_Driver;
+import Infra.Properties.Selenium.Close_Browser;
+import Infra.Properties.Selenium.Selenium_Chrome_Driver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

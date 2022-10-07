@@ -1,19 +1,16 @@
 package Tests.FaceBook;
 
-import Infra.Facebook_Infra.FaceBook_Login_Page;
-import Infra.Selenium.Chrome_Options;
-import io.netty.handler.codec.spdy.SpdyHttpHeaders;
-import org.testng.annotations.Test;
-
-public class FaceBookTestNames implements Face_Book_Testing {
+public class FaceBookTestNames{
 
 
 
 
-    public  static void   Names() throws InterruptedException {
+    public  static void   Names() throws Exception {
 
         Face_Book_Testing.main();
         Face_Book_Testing.LoginToFaceBook_01();
+        Face_Book_Testing.Close_Browser();
+
 
 
 

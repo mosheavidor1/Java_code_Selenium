@@ -1,4 +1,4 @@
-package Infra.Selenium;
+package Infra.Properties.Selenium;
 
 public interface Browser_Properties {
 

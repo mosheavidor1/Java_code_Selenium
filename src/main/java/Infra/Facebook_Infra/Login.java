@@ -3,26 +3,29 @@ package Infra.Facebook_Infra;
 public class Login implements FacebookConst {
 
     private String UserName;
-    private int Password;
+    private String Password;
 
     public String getUserName(){
-        this.UserName=UserName;
+        this.UserName=FacebookConst.User_elm;
 
         return UserName;
     }
 
-    public void setUserName(String UserName ){
+    public String setUserName(String UserName ){
         this.UserName=UserName;
+        return UserName;
+
 
     }
 
-    public int getPassword() {
-        this.Password=Password;
+    public String getPassword() {
+        this.Password=FacebookConst.Pass_elm;
         return Password;
     }
 
-    public void setPassword(int password) {
+    public String setPassword( String Password) {
 
         this.Password=Password;
+        return Password;
     }
 }

@@ -1,6 +1,8 @@
 package Infra.Properties.Selenium;
 
-public class Selenium_Chrome_Driver extends Browsers implements Browser_Properties {
+import org.openqa.selenium.WebDriver;
+
+public  class Selenium_Chrome_Driver extends Browsers implements Browser_Properties{
 
 
 

@@ -18,7 +18,7 @@ public class PalindromeOtherWay {
             } else {
                 System.out.println("This is not a palindrome word");
             }
-            System.out.println(" Do yo wish to continue");
+            System.out.println(" Do you wish to continue");
             {
 
             }

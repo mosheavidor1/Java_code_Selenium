@@ -2,11 +2,14 @@ package Infra.Facebook_Infra;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FaceBook_Login_Page {
 
-private WebDriver driver=new FirefoxDriver();
+//private WebDriver driver=new FirefoxDriver();
+private WebDriver driver=new ChromeDriver();
+
 
 
 

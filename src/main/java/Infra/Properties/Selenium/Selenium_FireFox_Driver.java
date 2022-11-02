@@ -1,6 +1,9 @@
 package Infra.Properties.Selenium;
 
-public  class Selenium_FireFox_Driver extends Browsers implements Browser_Properties {
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Selenium_FireFox_Driver extends Browsers implements Browser_Properties {
 
 
 
@@ -11,8 +14,21 @@ public  class Selenium_FireFox_Driver extends Browsers implements Browser_Proper
 
 
     }
+    WebDriver driver;
+
+    public WebDriver getDriver() {
+
+        driver=  new FirefoxDriver();
+        return driver;
+    }
+
+    @Override
+    public void Elemet() {
+        this.element=element;
+    }
 
 }
+
 
 
 

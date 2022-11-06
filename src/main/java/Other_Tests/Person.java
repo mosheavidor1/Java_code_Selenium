@@ -4,6 +4,7 @@ public class Person {
 
     int age_1 = 100;
     int age_2 = 50;
+    String x = "sample";
 
 
     String text_01 = "Bigger than 100 ";
@@ -46,4 +47,5 @@ public class Person {
         this.age_2 = age_2;
 
     }
+
 }

@@ -1,12 +1,12 @@
 package Other_Tests;
 
-public class BreakAndContinue {
+public class Break_with_loops {
 
     public static void main(String[] args) {
 
         Person P = new Person();
 
-        int x = 80;
+        int x = 5;
 
         for (int i = 0; i <= x; i++) {
 
@@ -17,6 +17,10 @@ public class BreakAndContinue {
             } else if (x < P.age_2) {
                 System.out.println(P.text_02);
                 break;
+
+            }else if(x==5){
+                System.out.println(i);
+                continue;
 
 
             } else {

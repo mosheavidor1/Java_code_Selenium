@@ -13,7 +13,7 @@ public class Google_Test {
 
     @BeforeTest
 
-    public void main(){
+    public void main() {
 
         Selenium_Chrome_Driver C = new Selenium_Chrome_Driver();
         Selenium_FireFox_Driver F = new Selenium_FireFox_Driver();
@@ -26,11 +26,11 @@ public class Google_Test {
 
     @Test
 
-    public void install_CCleaner(){
+    public void install_CCleaner() {
 
 
-        Install Install_software= new Install();
-       Install_software.install_CC();
+        Install Install_software = new Install();
+        Install_software.install_CC();
 
     }
 
@@ -40,8 +40,8 @@ public class Google_Test {
     public static void Close_Browser() throws Exception {
 
         Close_Browser b = new Close_Browser();
-       // b.Close_Chrome();
+        // b.Close_Chrome();
 
 
     }
-    }
+}

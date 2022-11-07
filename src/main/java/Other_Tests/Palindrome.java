@@ -18,7 +18,7 @@ public class Palindrome {
 
 
         int i = 0;
-        int j = word.length()-1;
+        int j = word.length() - 1;
 
         while (i <= j) {
             if (word.charAt(i) != word.charAt(j)) {
@@ -27,9 +27,9 @@ public class Palindrome {
                 return false;
 
             }
-return true;
+            return true;
         }
-      return get_pal(word);
+        return get_pal(word);
     }
 }
 

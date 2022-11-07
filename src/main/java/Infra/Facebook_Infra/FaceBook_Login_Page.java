@@ -3,24 +3,19 @@ package Infra.Facebook_Infra;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FaceBook_Login_Page {
 
-//private WebDriver driver=new FirefoxDriver();
-private WebDriver driver=new ChromeDriver();
+    //private WebDriver driver=new FirefoxDriver();
+    private WebDriver driver = new ChromeDriver();
 
 
+    Login L = new Login();
 
-
-
-  Login L = new Login();
     public void Login_Page() throws InterruptedException {
 
 
-
-
-      driver.get(Login.FaceBookURL);
+        driver.get(Login.FaceBookURL);
         driver.manage().window().maximize();
         driver.findElement(By.cssSelector(L.getUserName())).click();
         driver.findElement(By.cssSelector(L.getUserName())).sendKeys(L.setUserName(Login.User));
@@ -29,19 +24,12 @@ private WebDriver driver=new ChromeDriver();
         driver.findElement(By.xpath(Login.Login_elm)).click();
 
 
-
         Thread.sleep(1000);
 
 
-
-
-
-
-
-
-        }
-
     }
+
+}
 
 
 

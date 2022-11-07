@@ -6,15 +6,15 @@ public class BreakAndContinue {
 
         Person P = new Person();
 
-        int x=80;
+        int x = 80;
 
         for (int i = 0; i <= x; i++) {
 
-            if (x>=P.age_1) {
+            if (x >= P.age_1) {
                 System.out.println(P.text_01);
-              break;
+                break;
 
-            } else if (x<P.age_2) {
+            } else if (x < P.age_2) {
                 System.out.println(P.text_02);
                 break;
 
@@ -24,7 +24,6 @@ public class BreakAndContinue {
 
                 System.out.println(P.text_03);
                 break;
-
 
 
             }

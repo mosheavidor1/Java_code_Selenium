@@ -1,7 +1,5 @@
 package Other_Tests;
 
-import io.netty.handler.ssl.JdkApplicationProtocolNegotiator;
-
 import java.util.Scanner;
 
 public class PalindromeOtherWay {
@@ -27,15 +25,12 @@ public class PalindromeOtherWay {
             if (sc.nextLine().equals("yes")) ;
 
 
+            else {
+                sc.nextLine().equals("no");
+                System.out.println("Thank you for playing ");
+                break;
 
-
-               else  {
-               sc.nextLine().equals("no");
-               System.out.println("Thank you for playing ");
-               break;
-
-               }
-
+            }
 
 
         }
@@ -43,23 +38,23 @@ public class PalindromeOtherWay {
         while (true);
     }
 
-   public static boolean GetPal(String name ) {
+    public static boolean GetPal(String name) {
 
-       String original = "";
-        original=name;
+        String original = "";
+        original = name;
 
-       String reverse = "";
+        String reverse = "";
 
-       int length = original.length();
-       for (int i = length - 1; i >= 0; i--)
-           reverse = reverse+original.charAt(i);
+        int length = original.length();
+        for (int i = length - 1; i >= 0; i--)
+            reverse = reverse + original.charAt(i);
 
-       if (original.equals(reverse)) {
-         return true;
-       } else {
-           return false;
-       }
-   }
+        if (original.equals(reverse)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
 }
 

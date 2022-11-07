@@ -10,10 +10,5 @@ public class FacebookLoginRunTest {
         F.Names();
 
 
-
-
-
-
-
     }
 }

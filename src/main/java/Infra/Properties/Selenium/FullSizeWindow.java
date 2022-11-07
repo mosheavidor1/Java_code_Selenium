@@ -2,13 +2,13 @@ package Infra.Properties.Selenium;
 
 import org.openqa.selenium.WebDriver;
 
-public class FullSizeWindow  {
+public class FullSizeWindow {
 
-WebDriver driver;
+    WebDriver driver;
 
- public void Full_Size(WebDriver driver){
-     this.driver=driver;
-      driver.manage().window().maximize();
+    public void Full_Size(WebDriver driver) {
+        this.driver = driver;
+        driver.manage().window().maximize();
 
     }
 

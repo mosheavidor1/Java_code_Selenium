@@ -12,26 +12,25 @@ public class Play {
     WebElement element;
 
 
-   Constant_Add add = new Constant_Add();
+    Constant_Add add = new Constant_Add();
 
 
+    public void PlayOnYouTube() {
+        driver = new ChromeDriver();
 
-    public void PlayOnYouTube(){
-        driver=new ChromeDriver();
 
-
-      driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.get(add.YouTube);
         String Play_Button = add.Play;
 
 
         try {
 
-          element = driver.findElement(By.xpath(Play_Button));
+            element = driver.findElement(By.xpath(Play_Button));
 
 
             if (element.isDisplayed()) {
-               element.click();
+                element.click();
                 System.out.println("Success");
 
             }

@@ -17,8 +17,6 @@ public class Testing {
         C.Drivers();
 
 
-
-
     }
 
 
@@ -27,20 +25,20 @@ public class Testing {
     public void Test_01() {
 
 
-Play Start = new Play();
-Start.PlayOnYouTube();
+        Play Start = new Play();
+        Start.PlayOnYouTube();
     }
 
     @AfterTest
 
     public void Close_Browser() throws Exception {
         Thread.sleep(1000);
-Close_Browser b = new Close_Browser();
-            b.Close_Chrome();
-
-        }
+        Close_Browser b = new Close_Browser();
+        b.Close_Chrome();
 
     }
+
+}
 
 
 

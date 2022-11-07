@@ -13,7 +13,7 @@ public class Face_Book_Testing {
 
     @BeforeClass
 
-    public static void main(){
+    public static void main() {
 
 
         Selenium_Chrome_Driver C = new Selenium_Chrome_Driver();
@@ -21,7 +21,6 @@ public class Face_Book_Testing {
 
         C.Drivers();
         F.Drivers();
-
 
 
     }
@@ -36,7 +35,7 @@ public class Face_Book_Testing {
         Thread.sleep(10000);
 
 
-        }
+    }
 
     @AfterTest
 
@@ -49,5 +48,4 @@ public class Face_Book_Testing {
     }
 
 
-
-    }
+}

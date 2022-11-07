@@ -1,7 +1,6 @@
 package Infra.Properties.Selenium;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Browser_help {
 
@@ -21,7 +20,7 @@ public class Browser_help {
 
     public WebDriver getFireFox_properties() {
 
-       Selenium_FireFox_Driver F = new Selenium_FireFox_Driver();
+        Selenium_FireFox_Driver F = new Selenium_FireFox_Driver();
         WebDriver driver = F.getDriver();
         FullSizeWindow FS = new FullSizeWindow();
 

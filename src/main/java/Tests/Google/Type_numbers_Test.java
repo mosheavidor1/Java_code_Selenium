@@ -1,14 +1,16 @@
 package Tests.Google;
 
 import Infra.Google.Type_numbers_properties;
-import Infra.Properties.Selenium.*;
+import Infra.Properties.Selenium.Browser_Properties;
+import Infra.Properties.Selenium.Browser_help;
+import Infra.Properties.Selenium.Close_Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public  class Type_numbers_Test implements Browser_Properties {
+public class Type_numbers_Test implements Browser_Properties {
 
 
     @BeforeClass
@@ -26,9 +28,9 @@ public  class Type_numbers_Test implements Browser_Properties {
     public static void Test_01() {
 
 
-Browser_help C = new Browser_help();
+        Browser_help C = new Browser_help();
 
-WebDriver driver = C.getChrome_properties();
+        WebDriver driver = C.getChrome_properties();
 //WebDriver driver=C.getFireFox_properties();
 
         Type_numbers_properties numbers = new Type_numbers_properties();

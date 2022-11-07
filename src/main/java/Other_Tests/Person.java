@@ -6,7 +6,6 @@ public class Person {
     int age_2 = 50;
 
 
-
     String text_01 = "Bigger than 100 ";
     String text_02 = "Smaller than 50 ";
     String text_03 = "Bye ";

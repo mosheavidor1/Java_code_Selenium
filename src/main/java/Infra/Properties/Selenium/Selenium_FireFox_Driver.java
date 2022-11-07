@@ -6,29 +6,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenium_FireFox_Driver extends Browsers implements Browser_Properties {
 
 
-
     @Override
     public void Drivers() {
         System.setProperty(FF_Pro, FF_Path);
 
 
+    }
+
+    @Override
+    public void Element() {
 
     }
+
     WebDriver driver;
 
     public WebDriver getDriver() {
 
-        driver=  new FirefoxDriver();
+        driver = new FirefoxDriver();
         return driver;
     }
-
-    @Override
-    public void Elemet() {
-        this.element=element;
-    }
-
 }
-
 
 
 

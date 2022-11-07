@@ -13,11 +13,7 @@ public abstract class Browsers {
     WebDriver driver;
 
 
-
-
-    public abstract void Elemet();
-
-
+    public abstract void Element();
 
 
 }

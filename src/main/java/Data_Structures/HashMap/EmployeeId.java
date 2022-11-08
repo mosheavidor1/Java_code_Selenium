@@ -14,6 +14,7 @@ public class EmployeeId {
         EMPI.put("Sam", 4);
         EMPI.put("Guy", 35);
         EMPI.put("Ben", 14);
+        EMPI.put("Chris", 30);
 
         System.out.println(EMPI);
         System.out.println(EMPI.get("John"));

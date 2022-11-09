@@ -1,4 +1,4 @@
-package Other_Tests;
+package Other_Tests.Basic_Study;
 
 import java.util.Scanner;
 

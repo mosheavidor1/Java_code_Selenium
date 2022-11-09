@@ -1,4 +1,4 @@
-package Other_Tests;
+package Other_Tests.Basic_Study;
 
 public class Nested_basic_loop {
     public static void main(String[] args) {

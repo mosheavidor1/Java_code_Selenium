@@ -1,7 +1,7 @@
 package Other_Tests.Exchange_Program;
 
 public class Action extends Scanner_Actions implements Messages {
-PlaceTheValue P = new PlaceTheValue();
+    PlaceTheValue P = new PlaceTheValue();
 
     @Override
     public void Scan_Message() {
@@ -32,21 +32,26 @@ PlaceTheValue P = new PlaceTheValue();
 
             System.out.println(DO_You_Wish_TO_Continue);
 
-sc.nextLine();
+
+            sc.nextLine();
+
+
+        }
+        while (sc.nextLine().equals("yes"));
+
+
+        while (sc.nextLine().equals("no")) {
+
+
+            System.out.println("Thank you for your time ");
+            break;
+
 
         }
 
-while (sc.nextLine().equals("yes"));
-
-while (sc.nextLine().equals("no")){
-    System.out.println("Thank you for your time ");
-    break;
-
+    }
 }
 
 
 
-        }
 
-
-    }

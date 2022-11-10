@@ -1,20 +1,24 @@
 package Generics;
 
-public class Numbers<T>{
+
+
+
+public class Numbers<T> {
 
     T number;
 
-    public Numbers(T number){
 
-        this.number=number;
+    public Numbers(T number) {
+
+
+        this.number = number;
     }
 
 
-
-public T getNumber(){
+    public T getNumber() {
 
         return number;
-}
+    }
 
 
 }

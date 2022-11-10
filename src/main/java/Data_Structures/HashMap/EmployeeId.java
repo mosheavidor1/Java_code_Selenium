@@ -15,9 +15,17 @@ public class EmployeeId {
         EMPI.put("Guy", 35);
         EMPI.put("Ben", 14);
         EMPI.put("Chris", 30);
+        EMPI.replace("Sam",100);
+
 
         System.out.println(EMPI);
         System.out.println(EMPI.get("John"));
+        System.out.println(EMPI);
+        System.out.println(EMPI.containsKey("Guy"));
+        System.out.println(EMPI.containsValue(100));
+        System.out.println(EMPI.remove("Danny",20));
+        System.out.println(EMPI);
+
     }
 }
 

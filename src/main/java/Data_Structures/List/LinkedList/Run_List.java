@@ -1,4 +1,4 @@
-package Data_Structures.LinkedList;
+package Data_Structures.List.LinkedList;
 
 public class Run_List {
     public static void main(String[] args) {

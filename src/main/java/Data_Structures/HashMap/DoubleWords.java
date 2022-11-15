@@ -2,10 +2,7 @@ package Data_Structures.HashMap;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class DoubleWords{
     public static void main(String[] args) throws FileNotFoundException {
@@ -26,7 +23,8 @@ public class DoubleWords{
                 counter.put(words[i], 1);
             }
         }
-        Set<String> execute= counter.keySet();
+  Set<String> execute= counter.keySet();
+
         for(int i=0;i<execute.size();i++){
             if(counter.get(words[i])>1){
                 System.out.print(words[i]+": "+counter.get(words[i]));

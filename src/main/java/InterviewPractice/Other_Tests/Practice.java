@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.Other_Tests;
 
 public class Practice {
 

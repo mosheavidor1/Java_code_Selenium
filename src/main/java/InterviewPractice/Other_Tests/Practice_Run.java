@@ -1,8 +1,5 @@
-package InterviewPractice;
+package InterviewPractice.Other_Tests;
 
-
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Practice_Run {
 

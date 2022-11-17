@@ -1,8 +1,13 @@
 package InterviewPractice.Other_Tests;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class Count_Number_of_letters {
 
     public static void main(String[] args) {
+
+
 
         String text = "Hello world";
         String sum="";
@@ -23,10 +28,15 @@ public class Count_Number_of_letters {
             }
       if(sum.length()>0){
           System.out.println(sum+"="+sum.length());
+          sum="";
+
       }
         }
+
     }
 }
+
+
 
 
 

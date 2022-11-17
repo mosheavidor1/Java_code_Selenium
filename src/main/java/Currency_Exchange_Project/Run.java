@@ -7,5 +7,6 @@ public class Run {
         Action Run_Exchange_Rate= new Action();
 
         Run_Exchange_Rate.Scan_Message();
+
     }
 }

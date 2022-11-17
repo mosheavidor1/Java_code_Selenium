@@ -33,24 +33,21 @@ public class Action extends Scanner_Actions implements Messages {
             System.out.println(DO_You_Wish_TO_Continue);
 
 
-            sc.nextLine();
-
+            while (sc.nextLine().equals("no")) ;
 
         }
         while (sc.nextLine().equals("yes"));
 
-
-        while (sc.nextLine().equals("no")) {
-
-
+        {
             System.out.println("Thank you for your time ");
-            break;
-
 
         }
-
     }
 }
+
+
+
+
 
 
 

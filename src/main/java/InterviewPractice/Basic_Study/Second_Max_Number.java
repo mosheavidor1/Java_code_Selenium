@@ -6,21 +6,25 @@ public class Second_Max_Number {
 
     public static void main(String[] args) {
 
-        int arr[] = {25, 3, 48, 222, 600, 7};
-       String arr_sorted = Arrays.toString(Arrays.stream(arr).sorted().toArray());
-        int Second=Integer.parseInt(arr_sorted[]);
+        int arr[] = {480, 900, 48, 130, 100, 7};
 
-//I need to see after the sorted how to return the second large number
+        System.out.println(GetSecondMax(arr));
 
 
-        for(int i=0;i<arr_sorted.length();i++){
-
-
-            break;
-
-
-
-        }
     }
 
+
+    public static int GetSecondMax(int num[]) {
+        Arrays.sort(num);
+
+        int length=num[num.length-2];
+
+return length;
+    }
+
+
+
+
 }
+
+

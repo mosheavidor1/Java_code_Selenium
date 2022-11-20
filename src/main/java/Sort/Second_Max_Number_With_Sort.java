@@ -1,14 +1,16 @@
-package InterviewPractice.Basic_Study;
+package Sort;
 
 import java.util.Arrays;
 
-public class Second_Max_Number {
+public class Second_Max_Number_With_Sort {
 
     public static void main(String[] args) {
 
         int arr[] = {480, 900, 48, 130, 100, 7};
 
         System.out.println(GetSecondMax(arr));
+
+        //Look at the other way to do this : Look at the email gmail .
 
 
     }

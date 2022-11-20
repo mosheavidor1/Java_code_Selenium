@@ -1,4 +1,4 @@
-package InterviewPractice.Other_Tests;
+package InterviewPractice.Basic_Study;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -9,7 +9,7 @@ public class Count_Number_of_letters {
 
 
 
-        String text = "Hello world";
+        String text = "Moshe Avidor";
         String sum="";
 
         char[] word= text.toCharArray();

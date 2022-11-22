@@ -13,7 +13,8 @@ import java.net.http.HttpResponse;
 
 public class RestApiPractice {
 
-    public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
+    //public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
+    public static void main(String[] args) throws Exception {
 //post method
         Transcript transcript = new Transcript();
         transcript.setAudio_url("https://raw.githubusercontent.com/johnmarty3/JavaAPITutorial/main/Thirsty.mp4");
@@ -32,36 +33,43 @@ public class RestApiPractice {
 
         System.out.println(postResponse.body());
 
-        //Get method
+
         transcript = gson.fromJson(postResponse.body(), Transcript.class);
         System.out.println(transcript.getId());
 
+        //Get method
 
-        HttpRequest getRequest = HttpRequest.newBuilder().uri(new URI("https://api.assemblyai.com/v2/transcript" + transcript.getId())).
-                header("Authorization", "6b3923cd69e149189e3460eb9fac3f5f").GET().build();
+        HttpRequest getRequest = HttpRequest.newBuilder()
+                .uri(new URI("https://api.assemblyai.com/v2/transcript/" + transcript.getId()))
+                .header("Authorization", "6b3923cd69e149189e3460eb9fac3f5f")
+                .build();
+        {
+
+            while (true) {
+                HttpResponse<String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
+                transcript = gson.fromJson(getResponse.body(), Transcript.class);
+
+                System.out.println(transcript.getStatus());
 
 
-        while (true) {
-            HttpResponse<String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
-            transcript = gson.fromJson(getResponse.body(), Transcript.class);
+                if ("completed".equals(transcript.getStatus()) || "error".equals(transcript.getStatus())) ;
+                break;
 
-
-            System.out.println(transcript.getStatus());
-
-            if ("completed".equals(transcript.getStatus()) || "error".equals(transcript.getStatus())) ;
-            break;
+            }
+            Thread.sleep(10000);
 
         }
-        Thread.sleep(1000);
-
 
         System.out.println("Transcription completed");
         System.out.println(transcript.getText());
 
-
     }
-
 }
+
+
+
+
+
 
 
 

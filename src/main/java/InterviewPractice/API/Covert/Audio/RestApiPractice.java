@@ -1,6 +1,7 @@
 package InterviewPractice.API.Covert.Audio;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonParser;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -60,6 +61,8 @@ public class RestApiPractice {
 
         System.out.println("Transcription completed");
         System.out.println(transcript.getText());
+
+
 
     }
 }

@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-
+//From this url https://www.chillyfacts.com/java-send-http-getpost-request-and-read-json-response/   need to create also POST method .
 
     public class  Send_HTTP_Request {
 

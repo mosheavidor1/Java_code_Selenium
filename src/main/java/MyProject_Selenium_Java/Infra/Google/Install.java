@@ -1,6 +1,6 @@
 package MyProject_Selenium_Java.Infra.Google;
 
-import MyProject_Selenium_Java.Infra.Properties.Selenium.FullSizeWindow;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.FullSizeWindow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

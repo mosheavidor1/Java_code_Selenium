@@ -1,4 +1,4 @@
-package MyProject_Selenium_Java.Infra.Properties.Selenium;
+package MyProject_Selenium_Java.Infra.Selenium.Properties;
 
 import org.openqa.selenium.WebDriver;
 

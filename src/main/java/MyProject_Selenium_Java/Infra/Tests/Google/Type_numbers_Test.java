@@ -1,9 +1,9 @@
 package MyProject_Selenium_Java.Infra.Tests.Google;
 
 import MyProject_Selenium_Java.Infra.Google.Type_numbers_properties;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Browser_Properties;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Browser_help;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Close_Browser;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Browser_Properties;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Browser_help;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Close_Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;

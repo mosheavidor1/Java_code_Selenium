@@ -1,7 +1,7 @@
-package MyProject_Selenium_Java.Infra.Properties.Selenium;
+package MyProject_Selenium_Java.Infra.Selenium.Properties;
 
-import static MyProject_Selenium_Java.Infra.Properties.Selenium.KillProcess.isProcessRunning;
-import static MyProject_Selenium_Java.Infra.Properties.Selenium.KillProcess.killProcess;
+import static MyProject_Selenium_Java.Infra.Selenium.Properties.KillProcess.isProcessRunning;
+import static MyProject_Selenium_Java.Infra.Selenium.Properties.KillProcess.killProcess;
 
 public class Close_Browser {
 

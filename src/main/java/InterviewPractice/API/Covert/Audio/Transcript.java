@@ -1,4 +1,4 @@
-package InterviewPractice.API;
+package InterviewPractice.API.Covert.Audio;
 
 public class Transcript {
 

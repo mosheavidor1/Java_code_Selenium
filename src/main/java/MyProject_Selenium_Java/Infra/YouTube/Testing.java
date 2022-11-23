@@ -1,8 +1,8 @@
 package MyProject_Selenium_Java.Infra.YouTube;
 
 
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Close_Browser;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Selenium_Chrome_Driver;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Close_Browser;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Selenium_Chrome_Driver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

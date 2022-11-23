@@ -1,9 +1,9 @@
 package MyProject_Selenium_Java.Infra.Tests.FaceBook;
 
 import MyProject_Selenium_Java.Infra.Facebook_Infra.FaceBook_Login_Page;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Close_Browser;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Selenium_Chrome_Driver;
-import MyProject_Selenium_Java.Infra.Properties.Selenium.Selenium_FireFox_Driver;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Close_Browser;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Selenium_Chrome_Driver;
+import MyProject_Selenium_Java.Infra.Selenium.Properties.Selenium_FireFox_Driver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

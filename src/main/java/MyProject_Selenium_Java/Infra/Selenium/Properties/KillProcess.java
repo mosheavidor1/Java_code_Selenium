@@ -1,4 +1,4 @@
-package MyProject_Selenium_Java.Infra.Properties.Selenium;
+package MyProject_Selenium_Java.Infra.Selenium.Properties;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

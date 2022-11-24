@@ -1,8 +1,12 @@
 package InterviewPractice.API.Json.Practice;
 
+import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import netscape.javascript.JSObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.openqa.selenium.json.Json;
 
 import java.io.FileReader;
 import java.util.*;
@@ -15,11 +19,15 @@ public class ConvertJson {
 
     public static void main(String[] args) throws Exception {
 
-        Object obj = new JsonParser().parse(new FileReader("C:\\Practice\\sample-json.json"));
-        //JsonObject jo=(JsonObject) obj;
-        //Map address = (HashMap) jo.get("address");
-        JSObject jo = (JSObject) obj;
-        Map address = (HashMap) jo.getMember("address");
+
+        String jsonString = ("C:\\Practice\\sample-json.json");
+
+
+        JsonObject jo = JsonParser.parseReader(new FileReader(jsonString)).getAsJsonObject();
+
+
+
+    HashMap<String, Object> address = new Gson().fromJson(jo, HashMap.class);
 
         System.out.println(address);
         System.out.println();

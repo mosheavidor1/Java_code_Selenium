@@ -1,4 +1,6 @@
-package InterviewPractice.Basic_Study;
+package InterviewPractice.Basic_Study.loops;
+
+import InterviewPractice.Basic_Study.loops.Person;
 
 public class Break_with_loops {
 

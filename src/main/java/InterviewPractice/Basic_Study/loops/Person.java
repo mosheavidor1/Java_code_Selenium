@@ -1,4 +1,4 @@
-package InterviewPractice.Basic_Study;
+package InterviewPractice.Basic_Study.loops;
 
 public class Person {
 

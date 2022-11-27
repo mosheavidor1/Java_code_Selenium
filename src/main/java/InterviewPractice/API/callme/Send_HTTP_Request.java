@@ -1,4 +1,4 @@
-package InterviewPractice.API.Call.Me;
+package InterviewPractice.API.callme;
 
 import org.json.JSONObject;
 
@@ -15,7 +15,7 @@ import java.net.URL;
         public static void main(String[] args) throws Exception {
 
             try {
-                InterviewPractice.API.Call.Me.Send_HTTP_Request.callMe();
+                Send_HTTP_Request.callMe();
             } catch (Exception e) {
                 e.printStackTrace();
             }

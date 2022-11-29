@@ -14,29 +14,29 @@ public class Action extends Scanner_Actions implements Messages {
 
             if (Choose_USD == sc.nextInt()) {
                 System.out.println(Choose_USD_message);
-                    P.setCoin_value(sc.nextDouble());
-                    System.out.println(Dollar_Rate_Message + " " + P.getCoin_Dollar());
+                P.setCoin_value(sc.nextDouble());
+                System.out.println(Dollar_Rate_Message + " " + P.getCoin_Dollar());
 
 
-                } else if (Choose_ILS == sc.nextInt()) {
-                    System.out.println(Choose_ILS_message);
-                    P.setCoin_value(sc.nextDouble());
-                    System.out.println(ILS_Rate_Message + " " + P.getCoin_ILS());
+            } else if (Choose_ILS == sc.nextInt()) {
+                System.out.println(Choose_ILS_message);
+                P.setCoin_value(sc.nextDouble());
+                System.out.println(ILS_Rate_Message + " " + P.getCoin_ILS());
 
 
-                } else {
-                    System.out.println(Value_Not_valid);
+            } else {
+                System.out.println(Value_Not_valid);
 
-                }
+            }
 
-                System.out.println(DO_You_Wish_TO_Continue);
+            System.out.println(DO_You_Wish_TO_Continue);
 
 
-                while (sc.nextLine().equals("no")) ;
+            while (sc.nextLine().equals("no")) ;
 
 
         }
-        while (sc.nextLine().equals("yes")) ;
+        while (sc.nextLine().equals("yes"));
 
 
         System.out.println("Thank you for your time ");

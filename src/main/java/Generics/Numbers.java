@@ -1,8 +1,6 @@
 package Generics;
 
 
-
-
 public class Numbers<T> {
 
     T number;

@@ -4,12 +4,12 @@ public class Names<T> {
 
     T name;
 
-    public Names(T name){
+    public Names(T name) {
 
-        this.name=name;
+        this.name = name;
     }
 
-public T getName(){
-    return name;
+    public T getName() {
+        return name;
     }
 }

@@ -6,12 +6,10 @@ import org.openqa.selenium.WebElement;
 public abstract class Browsers {
 
 
-    public abstract void Drivers();
-
-
     WebElement element;
     WebDriver driver;
 
+    public abstract void Drivers();
 
     public abstract void Element();
 

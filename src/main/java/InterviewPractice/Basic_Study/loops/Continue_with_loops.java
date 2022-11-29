@@ -7,11 +7,11 @@ public class Continue_with_loops {
         int x = 10;
 
         for (int i = 0; i <= x; i++) {
-            if (i == 5 || i==7) {
+            if (i == 5 || i == 7) {
                 continue;
             }
             System.out.println(i);
         }
     }
 
-    }
+}

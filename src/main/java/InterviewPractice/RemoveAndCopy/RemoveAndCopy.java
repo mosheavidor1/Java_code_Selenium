@@ -3,20 +3,20 @@ package InterviewPractice.RemoveAndCopy;
 import java.util.ArrayList;
 import java.util.List;
 
-public  class RemoveAndCopy implements RemoveAndCopyMessages {
+public class RemoveAndCopy implements RemoveAndCopyMessages {
 
     ValueConfiguration v = new ValueConfiguration();
- String SetV= v.setValue(Value);
- String value=v.getValue();
+    String SetV = v.setValue(Value);
+    String value = v.getValue();
 
-    public  String remove(String value) {
+    public String remove(String value) {
 
-   this.value=value;
+        this.value = value;
 
         ArrayList<String> arr = new ArrayList<>();
         ArrayList<String> arrTemp = new ArrayList<>();
         arr.addAll(List.of(NAMES));
-        System.out.println(Message_Before_The_Change +SPACE + arr);
+        System.out.println(Message_Before_The_Change + SPACE + arr);
         System.out.println("\n");
 
         for (int i = 0; i < arr.size(); i++) {
@@ -35,7 +35,7 @@ public  class RemoveAndCopy implements RemoveAndCopyMessages {
 
 
         }
-return value  ;
+        return value;
 
 
     }

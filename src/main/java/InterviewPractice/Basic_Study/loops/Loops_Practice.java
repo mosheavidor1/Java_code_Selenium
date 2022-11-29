@@ -12,11 +12,7 @@ public class Loops_Practice {
 
         int x = 11;
         for (int i = 1; i < x; i++) {
-            if (x < i) {
-                return true;
-            } else {
-                return false;
-            }
+            return x < i;
         }
         return getThis();
     }

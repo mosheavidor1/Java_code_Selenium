@@ -1,11 +1,11 @@
 package selenium.java.project.infra.YouTube;
 
 
-import selenium.java.project.infra.Properties.selenium.properties.Close_Browser;
-import selenium.java.project.infra.Properties.selenium.properties.Selenium_Chrome_Driver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import selenium.java.project.infra.Properties.selenium.properties.Close_Browser;
+import selenium.java.project.infra.Properties.selenium.properties.Selenium_Chrome_Driver;
 
 public class Testing {
 

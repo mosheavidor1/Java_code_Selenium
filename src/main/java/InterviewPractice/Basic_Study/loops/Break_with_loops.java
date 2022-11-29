@@ -1,7 +1,5 @@
 package InterviewPractice.Basic_Study.loops;
 
-import InterviewPractice.Basic_Study.loops.Person;
-
 public class Break_with_loops {
 
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class Break_with_loops {
                 System.out.println(P.text_02);
                 break;
 
-            }else if(x==5){
+            } else if (x == 5) {
                 System.out.println(i);
                 continue;
 
@@ -30,7 +28,6 @@ public class Break_with_loops {
 
                 System.out.println(P.text_03);
                 break;
-
 
 
             }

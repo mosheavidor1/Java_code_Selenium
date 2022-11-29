@@ -1,7 +1,6 @@
 package Currency_Exchange_Project;
 
 
-
 public class Dollar extends Coins {
 
 
@@ -11,7 +10,7 @@ public class Dollar extends Coins {
     @Override
     public double Exchange() {
 
-      value=USD*Rate_Value;
+        value = USD * Rate_Value;
 
         return value;
     }

@@ -1,19 +1,20 @@
 package InterviewPractice.RemoveAndCopy;
 
-public  class ValueConfiguration {
+public class ValueConfiguration {
 
-String value;
+    String value;
 
-public String setValue(String value){
+    public String setValue(String value) {
 
-    this.value=value;
-    return value;
+        this.value = value;
+        return value;
 
-}
-public String getValue(){
+    }
 
-    return value;
+    public String getValue() {
 
-}
+        return value;
+
+    }
 
 }

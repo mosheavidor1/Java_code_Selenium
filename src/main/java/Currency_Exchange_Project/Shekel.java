@@ -10,7 +10,7 @@ public class Shekel extends Coins {
     @Override
     public double Exchange() {
 
-value=ILS/Rate_Value;
+        value = ILS / Rate_Value;
 
 
         return value;

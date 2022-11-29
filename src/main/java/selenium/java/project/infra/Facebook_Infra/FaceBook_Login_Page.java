@@ -6,11 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FaceBook_Login_Page {
 
-    //private WebDriver driver=new FirefoxDriver();
-    private WebDriver driver = new ChromeDriver();
-
-
     Login L = new Login();
+    //private WebDriver driver=new FirefoxDriver();
+    private final WebDriver driver = new ChromeDriver();
 
     public void Login_Page() throws InterruptedException {
 

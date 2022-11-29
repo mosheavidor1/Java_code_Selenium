@@ -1,30 +1,15 @@
 package InterviewPractice.RemoveAndCopy;
 
 
-
 public class RemoveElementsFromArray {
 
     public static void main(String[] args) {
-    RemoveAndCopy RC = new RemoveAndCopy();
-    RC.remove(RC.value);
-
+        RemoveAndCopy RC = new RemoveAndCopy();
+        RC.remove(RC.value);
 
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //        ArrayList<String> arr = new ArrayList<>();
@@ -48,7 +33,6 @@ public class RemoveElementsFromArray {
 //
 //        }
 //
-
 
 
 //    }

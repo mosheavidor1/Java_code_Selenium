@@ -1,14 +1,14 @@
 package selenium.java.project.tests.Google;
 
-import selenium.java.project.infra.Google.Type_numbers_properties;
-import selenium.java.project.infra.Properties.selenium.properties.Browser_Properties;
-import selenium.java.project.infra.Properties.selenium.properties.Browser_help;
-import selenium.java.project.infra.Properties.selenium.properties.Close_Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import selenium.java.project.infra.Google.Type_numbers_properties;
+import selenium.java.project.infra.Properties.selenium.properties.Browser_Properties;
+import selenium.java.project.infra.Properties.selenium.properties.Browser_help;
+import selenium.java.project.infra.Properties.selenium.properties.Close_Browser;
 
 public class Type_numbers_Test implements Browser_Properties {
 

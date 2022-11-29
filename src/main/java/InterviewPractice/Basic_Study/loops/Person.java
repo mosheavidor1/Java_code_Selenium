@@ -17,11 +17,24 @@ public class Person {
         return getAge_01();
     }
 
+    public void setAge_01(int age_1) {
+
+        this.age_1 = age_1;
+
+
+    }
+
     public int getAge_02() {
 
         System.out.println("The age is " + text_02);
 
         return getAge_02();
+    }
+
+    public void setAge_02(int age_2) {
+
+        this.age_2 = age_2;
+
     }
 
     public int getAge_03() {
@@ -30,20 +43,6 @@ public class Person {
 
         return getAge_03();
 
-
-    }
-
-
-    public void setAge_01(int age_1) {
-
-        this.age_1 = age_1;
-
-
-    }
-
-    public void setAge_02(int age_2) {
-
-        this.age_2 = age_2;
 
     }
 

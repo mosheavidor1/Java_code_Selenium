@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenium_FireFox_Driver extends Browsers implements Browser_Properties {
 
 
+    WebDriver driver;
+
     @Override
     public void Drivers() {
         System.setProperty(FF_Pro, FF_Path);
@@ -17,8 +19,6 @@ public class Selenium_FireFox_Driver extends Browsers implements Browser_Propert
     public void Element() {
 
     }
-
-    WebDriver driver;
 
     public WebDriver getDriver() {
 

@@ -1,6 +1,6 @@
-package selenium.java.project.run.FaceBook;
+package selenium.java.project.tests.FaceBook;
 
-import selenium.java.project.tests.FaceBook.FaceBookTestNames;
+
 
 
 public class FacebookLoginRunTest {

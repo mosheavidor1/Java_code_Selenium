@@ -1,21 +1,19 @@
 package selenium.java.project.infra.Google;
 
-import selenium.java.project.infra.Properties.selenium.properties.FullSizeWindow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.AssertJUnit;
+import selenium.java.project.infra.Properties.selenium.properties.FullSizeWindow;
 
 import java.util.logging.Logger;
 
 public class Install {
 
-    private WebDriver driver = new ChromeDriver();
-
+    private final WebDriver driver = new ChromeDriver();
     Logger logger = Logger.getLogger("Testing");
     FullSizeWindow Enlarge_Browser_Window = new FullSizeWindow();
-
 
     public void install_CC() {
         try {

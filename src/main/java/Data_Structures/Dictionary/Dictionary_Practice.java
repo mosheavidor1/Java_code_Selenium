@@ -20,5 +20,5 @@ public class Dictionary_Practice {
         System.out.println(Dic);
 
     }
-    }
+}
 

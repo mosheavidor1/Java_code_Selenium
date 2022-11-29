@@ -1,7 +1,6 @@
 package Data_Structures.HashMap;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Names {
     public static void main(String[] args) {

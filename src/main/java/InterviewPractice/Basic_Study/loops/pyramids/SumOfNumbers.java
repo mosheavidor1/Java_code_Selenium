@@ -3,30 +3,46 @@ package InterviewPractice.Basic_Study.loops.pyramids;
 public class SumOfNumbers {
 
     public static void main(String[] args) {
+int size=6;
+int x=1;
+int num=0;
+int firstNumber;
+int secondNumber;
+int sum=0;
+System.out.println(x);
+num++;
 
-        int size = 4;
-        int count = 0;
-        int sum = 0;
-        int num = 1;
-        System.out.println(num);
-        for (int i = 3; i <= size; i++) {
-            for (int j = 2; j <= i; j++) {
-                System.out.print(j + " ");{
-                    if(j>i&&j>3){
-                        count=j-1;
-                        sum=j+count;
-                    }
-                }
+for(int i=3;i<=size;i++){
 
+    for(int j=2;j<=i;j++) {
+        System.out.print(j+" ");
+        {
 
-            }
+            firstNumber = j - num;
+            secondNumber = firstNumber + 1;
+            sum = firstNumber + secondNumber;
 
 
         }
-        System.out.println();
-        System.out.print(sum+" ");
+
+
+
     }
+    System.out.println();
+    i=sum;
+
+    System.out.print(sum+" ");
+    sum=sum+num;
+
+
+    }
+
+
 }
+
+    }
+
+
 
 
 

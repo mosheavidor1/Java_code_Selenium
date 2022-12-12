@@ -4,12 +4,12 @@ public class SumOfNumbers {
 
     public static void main(String[] args) {
 
-        int num1 = 1, num2 = 2, num3 = 3, sum, size = 5;
+        int num1 = 1, num2 = 2, num3 = 3, sum,size = 5;
         System.out.println(num1);
         System.out.print(num2 + " " + num3);
         System.out.println();
-
         sum=num2+num3;
+
 
 
         for(int i=4;i<=size;i++){
@@ -18,15 +18,16 @@ public class SumOfNumbers {
 
                 System.out.print(sum+" ");
 
-
-
-
-
-
             }
 
+
+
             System.out.println();
+
+
+
         }
+
 
 
     }

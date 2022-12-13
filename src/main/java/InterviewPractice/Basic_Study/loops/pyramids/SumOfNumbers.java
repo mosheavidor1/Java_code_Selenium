@@ -7,19 +7,22 @@ public class SumOfNumbers {
  int size=6,firstPrint=1,num=1,num1=1,sumJ,sumI;
 
         System.out.println(firstPrint);
-        sumJ=num+num1;
+       sumJ=num+num1;
+
 
 
         for (int i = 3; i <= size; i++, sumI++) {
             sumI = sumJ + (sumJ + 1);
-            for (int j = 2; j <= i; j++, sumJ++) {
-                System.out.print(sumJ + " ");
+
+            for (int j = 2; j <= i; j++,sumJ++) {
+
+               System.out.print(sumJ + " ");
+
 
             }
-
             sumJ=sumI;
+            System.out.println();
 
-            System.out.println(sumI);
         }
     }
 }

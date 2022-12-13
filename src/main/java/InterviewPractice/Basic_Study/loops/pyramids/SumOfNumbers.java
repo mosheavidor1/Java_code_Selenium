@@ -2,15 +2,13 @@ package InterviewPractice.Basic_Study.loops.pyramids;
 
 public class SumOfNumbers {
 
-    public static void main(String[] args) {
 
- int size=6,firstPrint=1,num=1,num1=1,sumJ,sumI;
 
+    public static boolean sum(int size){
+
+ int firstPrint=1,num=1,num1=1,sumJ,sumI;
         System.out.println(firstPrint);
        sumJ=num+num1;
-
-
-
         for (int i = 3; i <= size; i++, sumI++) {
             sumI = sumJ + (sumJ + 1);
 
@@ -18,13 +16,16 @@ public class SumOfNumbers {
 
                System.out.print(sumJ + " ");
 
-
             }
             sumJ=sumI;
             System.out.println();
-
         }
+        return true;
+
+
+
     }
+
 }
 
 

@@ -4,35 +4,22 @@ public class SumOfNumbers {
 
     public static void main(String[] args) {
 
-        int num1 = 1, num2 = 2, num3 = 3, sum,size = 5;
+ int size=10,num1=1,num2=2,num3=3,sumJ,sumI;
+ sumJ=num2+num3;
         System.out.println(num1);
-        System.out.print(num2 + " " + num3);
-        System.out.println();
-        sum=num2+num3;
+        System.out.println(num2+" "+num3);
 
 
-
-        for(int i=4;i<=size;i++){
-
-            for(int j=2;j<=i;j++,sum++){
-
-                System.out.print(sum+" ");
-
+        for (int i = 4; i <= size; i++, sumI++) {
+            sumI = sumJ + (sumJ + 1);
+            for (int j = 2; j <= i; j++, sumJ++) {
+                System.out.print(sumJ + " ");
             }
-
-
-
-            System.out.println();
-
-
-
+            sumJ = sumI;
+            System.out.println(sumI);
         }
-
-
-
     }
 }
-
 
 
 

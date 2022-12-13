@@ -4,18 +4,21 @@ public class SumOfNumbers {
 
     public static void main(String[] args) {
 
- int size=10,num1=1,num2=2,num3=3,sumJ,sumI;
- sumJ=num2+num3;
-        System.out.println(num1);
-        System.out.println(num2+" "+num3);
+ int size=6,firstPrint=1,num=1,num1=1,sumJ,sumI;
+
+        System.out.println(firstPrint);
+        sumJ=num+num1;
 
 
-        for (int i = 4; i <= size; i++, sumI++) {
+        for (int i = 3; i <= size; i++, sumI++) {
             sumI = sumJ + (sumJ + 1);
             for (int j = 2; j <= i; j++, sumJ++) {
                 System.out.print(sumJ + " ");
+
             }
-            sumJ = sumI;
+
+            sumJ=sumI;
+
             System.out.println(sumI);
         }
     }

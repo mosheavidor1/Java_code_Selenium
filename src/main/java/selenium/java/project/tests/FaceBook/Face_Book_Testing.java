@@ -1,5 +1,6 @@
 package selenium.java.project.tests.FaceBook;
 
+import org.testng.annotations.BeforeTest;
 import selenium.java.project.infra.Facebook_Infra.FaceBook_Login_Page;
 import selenium.java.project.infra.Properties.selenium.properties.Close_Browser;
 import selenium.java.project.infra.Properties.selenium.properties.Selenium_Chrome_Driver;
@@ -11,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Face_Book_Testing {
 
-    @BeforeClass
+   @BeforeTest
 
     public static void main() {
 

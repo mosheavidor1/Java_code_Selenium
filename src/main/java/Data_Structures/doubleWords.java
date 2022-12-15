@@ -1,3 +1,4 @@
+
 package Data_Structures;
 
 import com.google.common.collect.Multiset;
@@ -12,32 +13,46 @@ import java.util.*;
 public class doubleWords {
 
     public static void main(String[] args) throws FileNotFoundException {
-
         getDouble();
     }
 
-    public static void getDouble() throws FileNotFoundException {
+    private static void getDouble() throws FileNotFoundException {
 
+        File path = new File("C:\\practice\\words.txt");
 
+        Scanner sc = new Scanner(path);
 
-        HashMap<String, Integer> words = new HashMap<>();
+        String words[] = sc.nextLine().split("\\W");
 
-            words.put("Moshe", 2);
-            words.put("Moshe", 8);
-            words.put("Alex", 4);
-            words.put("Yoni", 6);
+        Map<String, Integer> map = new HashMap<>();
+        for (String word : words) {
+            if (map.get(word) != null) {
+                map.put(word, map.get(word) + 1);
 
-//
-//           for(Map.Entry<String,Integer>key:words.entrySet()){
-//            System.out.print(key+":"+" ");
-
-
-        for(Map.Entry<String,Integer>key:words.entrySet()){
-            System.out.println(key.getKey()+": "+key.getValue());
+            } else {
+                map.put(word, 1);
+            }
+        }
+        Set<String> key = map.keySet();
+        for (String value : key) {
+            if (map.get(value) > 1)
+                System.out.println(value);
         }
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 //        Scanner sc = new Scanner(path);
 //
 //        String text[] = sc.nextLine().split("");

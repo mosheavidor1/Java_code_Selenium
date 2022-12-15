@@ -10,21 +10,22 @@ import java.security.Key;
 import java.security.KeyStore;
 import java.util.*;
 
-public class DoubleWords
-
-{
+public class DoubleWords {
 
     public static void main(String[] args) throws FileNotFoundException {
-        getDouble();
+         getDouble();
+
+
     }
+
 
     private static void getDouble() throws FileNotFoundException {
 
         File path = new File("C:\\practice\\words.txt");
 
-        Scanner sc = new Scanner(path);
+        Scanner text = new Scanner(path);
 
-        String words[] = sc.nextLine().split("\\W");
+        String words[] = text.nextLine().split(" ");
 
         Map<String, Integer> map = new HashMap<>();
         for (String word : words) {
@@ -38,7 +39,8 @@ public class DoubleWords
         Set<String> key = map.keySet();
         for (String value : key) {
             if (map.get(value) > 1)
-                System.out.println(value+":"+map.get(value));
+           System.out.println(value+":"+map.get(value));
+
         }
 
     }

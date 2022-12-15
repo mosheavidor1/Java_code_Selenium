@@ -36,7 +36,7 @@ public class doubleWords {
         Set<String> key = map.keySet();
         for (String value : key) {
             if (map.get(value) > 1)
-                System.out.println(value);
+                System.out.println(value+":"+map.get(value));
         }
 
     }
@@ -50,34 +50,3 @@ public class doubleWords {
 
 
 
-
-
-
-//        Scanner sc = new Scanner(path);
-//
-//        String text[] = sc.nextLine().split("");
-//
-//        Map<String, Integer> words = new HashMap<>();
-//
-//        for (int i=0;i<text.length;i++) {
-//            if (text.length > 1) {
-//                words.put(text.toString(), text.length);
-//
-//            } else {
-//                words.get(text.length);
-//            }
-//
-//        }
-//
-//       Set<String>key=words.keySet();
-//        for (int i = 0; i < key.size(); i++) {
-//            if (i > 1) {
-//                System.out.println(key.size());
-//            }
-//
-//        }
-//
-//    }
-//}
-//
-//

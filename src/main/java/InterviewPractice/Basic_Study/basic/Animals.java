@@ -7,7 +7,7 @@ public abstract class Animals {
 
 
 
-    abstract String animalColor();
+    abstract String animalColor(String color);
 
     abstract String print();
 

@@ -15,12 +15,13 @@ return  catVoice;
     }
 
     @Override
-    public String animalColor() {
+    public String animalColor(String color) {
 
 
-      String catC=catColor;
-        System.out.println(catColor);
-return catColor;
+      //String catC=catColor;
+        color=catColor;
+        System.out.println(color);
+return color;
     }
 
     @Override

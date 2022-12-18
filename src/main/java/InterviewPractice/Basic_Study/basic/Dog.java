@@ -15,11 +15,11 @@ public class Dog extends Animals implements AnimalsData {
     }
 
     @Override
-    String animalColor() {
-        String dogC=dogColor;
+    String animalColor(String color) {
+        color=dogColor;
 
-        System.out.println(dogColor);
-        return dogColor;
+        System.out.println(color);
+        return color;
     }
 
     @Override

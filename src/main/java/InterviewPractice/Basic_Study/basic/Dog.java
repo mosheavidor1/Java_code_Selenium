@@ -1,13 +1,14 @@
 package InterviewPractice.Basic_Study.basic;
 
+import Generics.Print;
 import InterviewPractice.Basic_Study.basic.Animals;
 
-public class Dog extends Animals {
+public class Dog extends Animals implements AnimalsData {
 
 
     @Override
     String animalNoise() {
-        String dogVoice="The dog barks";
+        String dogV=dogVoice;
 
         System.out.println(dogVoice);
         return dogVoice;
@@ -15,10 +16,20 @@ public class Dog extends Animals {
 
     @Override
     String animalColor() {
-        String dogColor="The dogs color is brown";
+        String dogC=dogColor;
 
         System.out.println(dogColor);
         return dogColor;
+    }
+
+    @Override
+    String print() {
+
+        String print = printDog;
+        System.out.println(print);
+
+        return print;
+
     }
 }
 

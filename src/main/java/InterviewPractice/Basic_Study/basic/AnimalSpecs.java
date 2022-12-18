@@ -30,7 +30,15 @@ public class AnimalSpecs{
 
     String color;
 
+    String print;
 
+    public String getPrint() {
+        return print;
+    }
+
+    public void setPrint(String print) {
+        this.print = print;
+    }
 
     public String getVoice() {
 

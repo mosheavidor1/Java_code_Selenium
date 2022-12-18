@@ -6,15 +6,17 @@ public class AnimalsAction implements AnimalsData {
      public static void AnimalsAction() {
 
           AnimalSpecs animal = new AnimalSpecs();
-          Cat c = new Cat();
-          Dog d = new Dog();
+          Cat cat = new Cat();
+          Dog dog = new Dog();
 
-          animal.setVoice(c.animalNoise());
-          animal.setColor(c.animalColor());
-          System.out.println(printCat);
-          animal.setVoice(d.animalNoise());
-          animal.setColor(d.animalColor());
-          System.out.println(printDog);
+          animal.setVoice(dog.animalNoise());
+          animal.setColor(dog.animalColor());
+          animal.setPrint(dog.print());
+          animal.setVoice(cat.animalNoise());
+          animal.setColor(cat.animalColor());
+          animal.setPrint(cat.print());
+
+
 
      }
 

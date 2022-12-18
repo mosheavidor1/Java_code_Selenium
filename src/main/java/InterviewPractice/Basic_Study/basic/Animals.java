@@ -9,5 +9,8 @@ public abstract class Animals {
 
     abstract String animalColor();
 
+    abstract String print();
+
 
 }
+

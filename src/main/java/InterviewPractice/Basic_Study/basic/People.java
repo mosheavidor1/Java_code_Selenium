@@ -2,15 +2,16 @@ package InterviewPractice.Basic_Study.basic;
 
 public class People {
 
-    private  String name;
 
-    private  int age;
+    private String name;
+
+    private int age;
 
 
-    public People(String name,int age){
+    public People(String name, int age) {
 
-        this.age=age;
-        this.name=name;
+        this.age = age;
+        this.name = name;
 
     }
 
@@ -28,5 +29,13 @@ public class People {
 
     public void setAge(int age) {
         this.age = age;
+
+
     }
 }
+
+
+
+
+
+

@@ -1,6 +1,9 @@
 package InterviewPractice.Basic_Study.basic;
 
-public class AnimalsAction implements AnimalsData {
+import static InterviewPractice.Basic_Study.basic.AnimalsData.catColor;
+import static InterviewPractice.Basic_Study.basic.AnimalsData.dogColor;
+
+public class AnimalsAction  {
 
 
      public static void AnimalsAction() {

@@ -3,7 +3,9 @@ package InterviewPractice.Basic_Study.basic;
 import Generics.Print;
 import InterviewPractice.Basic_Study.basic.Animals;
 
-public class Dog extends Animals implements AnimalsData {
+import static InterviewPractice.Basic_Study.basic.AnimalsData.*;
+
+public class Dog extends Animals  {
 
 
     @Override

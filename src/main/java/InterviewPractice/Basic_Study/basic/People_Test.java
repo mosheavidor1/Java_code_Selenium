@@ -3,13 +3,26 @@ package InterviewPractice.Basic_Study.basic;
 public class People_Test {
 
     public static void main(String[] args) {
-        People people = new People("Moshe",39);
 
 
-        people.setName("Chris");
-        people.setAge(30);
+        AnimalsData d =(s) -> "hello"+s;
+
+     getPlay(d::play);
+     }
 
 
-        System.out.println(people.getName()+" "+people.getAge());
+
+
+
+
+
+
+
+
+    static AnimalsData getPlay(AnimalsData data){
+
+        System.out.println(data.play("!"));
+        return data;
+
     }
 }

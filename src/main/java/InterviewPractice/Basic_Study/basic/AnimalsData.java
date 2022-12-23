@@ -1,4 +1,5 @@
 package InterviewPractice.Basic_Study.basic;
+@FunctionalInterface
 
 public interface AnimalsData {
 
@@ -23,7 +24,7 @@ public interface AnimalsData {
     String catColor= "The cats color is white";
 
 
-
+String play(String suffix);
 
 
 

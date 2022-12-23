@@ -2,7 +2,9 @@ package InterviewPractice.Basic_Study.basic;
 
 import InterviewPractice.Basic_Study.basic.Animals;
 
-public class Cat extends Animals implements AnimalsData {
+import static InterviewPractice.Basic_Study.basic.AnimalsData.*;
+
+public class Cat extends Animals  {
     @Override
     public String animalNoise() {
 

@@ -28,7 +28,7 @@ public class Send_HTTP_Post_Request {
         URL url = new URL("https://httpbin.org/post");
         Map<Object, Object> params = new LinkedHashMap<>();
 
-        params.put("name", "Moshe Avidor");
+        params.put("name", " -  Moshe Avidor");
         params.put("email", "helloworld@gmail.com");
         params.put("CODE", 1111);
         params.put("message", "Hello Post Test success");

@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 
 public class RestApiPractice {
 
-    //public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
+
     public static void main(String[] args) throws Exception {
 //post method
         Transcript transcript = new Transcript();

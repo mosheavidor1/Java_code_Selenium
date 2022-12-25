@@ -16,28 +16,28 @@ public class ConvertJson {
     public static void main(String[] args) throws Exception {
 
 
-        String jsonString = ("C:\\Practice\\sample-json.json");
+        String jsonString = ("C:\\practice\\sample-json-file.json");
 
 
         JsonObject jo = JsonParser.parseReader(new FileReader(jsonString)).getAsJsonObject();
 
 
-        HashMap<String, Object> address = new Gson().fromJson(jo, HashMap.class);
+      HashMap<String, Object> allJson = new Gson().fromJson(jo, HashMap.class);
 
-        System.out.println(address);
+        System.out.println(allJson);
         System.out.println();
 
-        Set k = address.keySet();
+        Set k = allJson.keySet();
         System.out.println();
         System.out.println("Key:   " + k);
-        Collection v = address.values();
+        Collection v = allJson.values();
         System.out.println("Values " + v);
-        Set e = address.entrySet();
+        Set e = allJson.entrySet();
         System.out.println("K-V :" + e);
         Iterator i = e.iterator();
         while (i.hasNext()) {
             Map.Entry entry = (Map.Entry) i.next();
-            System.out.println("Key " + entry.getKey() + "Value: " + entry.getValue());
+            System.out.println( entry.getKey() +" : "+ entry.getValue());
         }
 
 

@@ -18,7 +18,7 @@ System.out.println("This is a GET request: ");
 
 GetWithGson get = new GetWithGson();
 
-get.getGetNewEmail();
+get.getGetRequest();
 
 
 

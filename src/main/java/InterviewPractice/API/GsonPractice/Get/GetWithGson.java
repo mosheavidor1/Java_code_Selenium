@@ -10,15 +10,13 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class GetWithGson  {
+public class GetWithGson {
 
-    String getNewEmail;
-
-
+    String getRequest;
 
 
-    private static  String getNewEmail() throws Exception {
 
+    private static String getRequest() throws Exception {
 
 
         Gson gson = new Gson();
@@ -29,10 +27,6 @@ public class GetWithGson  {
         key.setOrigin(GsonConst.ORIGIN_VALUE);
 
 
-
-
-
-
         HttpRequest getRequest = HttpRequest.newBuilder()
                 .uri(new URI(GsonConst.GET))
                 .build();
@@ -41,25 +35,23 @@ public class GetWithGson  {
         HttpResponse<String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
 
 
-        key=gson.fromJson(getResponse.body(),Requests.class);
+        key = gson.fromJson(getResponse.body(), Requests.class);
 
 
-           System.out.println("The IP address is : "+" "+ key.getOrigin());
-           System.out.println("The URL address is : "+" "+key.getUrl());
-
+        System.out.println("The IP address is : " + " " + key.getOrigin());
+        System.out.println("The URL address is : " + " " + key.getUrl());
 
 
         return getResponse.body();
 
+
     }
 
-    public String getGetNewEmail() throws Exception {
-
-        this.getNewEmail=getNewEmail();
-
-
-        return getNewEmail;
+    public String getGetRequest() throws Exception {
+        this.getRequest=getRequest();
+        return getRequest;
     }
+;
 }
 
 

@@ -1,19 +1,28 @@
-package InterviewPractice.API.GsonPractice;
-
-import com.google.gson.Gson;
-
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-
-import static InterviewPractice.API.GsonPractice.Post.postRequest;
+package InterviewPractice.API.GsonPractice.RunSet;
 
 
-public class PostWithGson {
+import InterviewPractice.API.GsonPractice.Get.GetWithGson;
+import InterviewPractice.API.GsonPractice.Post.PostRequest;
+
+public class RequestSending {
 
     public static void main(String[] args) throws Exception {
-        postRequest();
+
+//PostRequest post = new PostRequest();
+//post.getPostNewEmail();
+
+GetWithGson get = new GetWithGson();
+
+get.getGetNewEmail();
+
+
+
+
+
+
+
+
+
 
 
 

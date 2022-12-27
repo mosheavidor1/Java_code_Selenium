@@ -1,6 +1,6 @@
-package InterviewPractice.API.GsonPractice;
+package InterviewPractice.API.GsonPractice.infra;
 
-public interface PostWithGsonConst {
+public interface GsonConst{
 
     public static  final  String URL = "https://httpbin.org/post";
 

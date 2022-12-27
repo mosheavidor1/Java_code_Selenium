@@ -6,7 +6,7 @@ public interface GsonConst{
 
     public static  final  String POST_URL = "https://httpbin.org/post";
 
-    public static  final  String GET_IP= "http://httpbin.org/ip";
+    public static   final  String GET_IP= "http://httpbin.org/ip";
 
     public static  final  String GET = "https://httpbin.org/get";
 

@@ -51,15 +51,8 @@ public class GetWithGson {
         this.getRequest=getRequest();
         return getRequest;
     }
-;
+
 }
-
-
-
-
-
-
-
 
 
 

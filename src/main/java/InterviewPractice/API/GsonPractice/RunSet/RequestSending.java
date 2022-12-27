@@ -8,8 +8,13 @@ public class RequestSending {
 
     public static void main(String[] args) throws Exception {
 
-//PostRequest post = new PostRequest();
-//post.getPostNewEmail();
+        System.out.println("This is a POST request: ");
+PostRequest post = new PostRequest();
+post.getPostNewEmail();
+
+System.out.println();
+
+System.out.println("This is a GET request: ");
 
 GetWithGson get = new GetWithGson();
 

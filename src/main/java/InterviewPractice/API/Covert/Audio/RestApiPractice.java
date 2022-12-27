@@ -35,6 +35,8 @@ public class RestApiPractice {
         transcript = gson.fromJson(postResponse.body(), Transcript.class);
         System.out.println(transcript.getId());
 
+
+
         //Get method
 
         HttpRequest getRequest = HttpRequest.newBuilder()
@@ -46,6 +48,7 @@ public class RestApiPractice {
             while (true) {
                 HttpResponse<String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
                 transcript = gson.fromJson(getResponse.body(), Transcript.class);
+
 
                 System.out.println(transcript.getStatus());
 

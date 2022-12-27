@@ -1,6 +1,6 @@
 package InterviewPractice.API.GsonPractice.Post;
 
-import InterviewPractice.API.Covert.Audio.Transcript;
+
 import InterviewPractice.API.GsonPractice.infra.GsonConst;
 import InterviewPractice.API.GsonPractice.infra.GsonHandler;
 
@@ -12,17 +12,15 @@ import java.net.http.HttpResponse;
 public  class PostRequest {
 
 
-
-String postNewEmail;
-
+    String postNewEmail;
 
 
 
-    private static  String postNewEmail() throws Exception {
+
+    private static String postNewEmail() throws Exception {
 
 
-
-        HttpRequest postRequest = HttpRequest.newBuilder().uri(new URI(GsonConst.URL))
+        HttpRequest postRequest = HttpRequest.newBuilder().uri(new URI(GsonConst.POST_URL))
                 .POST(HttpRequest.BodyPublishers.ofString(GsonHandler.turnToJson())).build();
 
 
@@ -41,11 +39,10 @@ String postNewEmail;
 
     public String getPostNewEmail() throws Exception {
 
-        this.postNewEmail=postNewEmail();
+        this.postNewEmail = postNewEmail();
 
 
         return postNewEmail;
+
     }
-
-
 }

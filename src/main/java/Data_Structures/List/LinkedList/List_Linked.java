@@ -1,13 +1,15 @@
 package Data_Structures.List.LinkedList;
 
 
-import java.util.LinkedList;
+import com.beust.ah.A;
+
+import java.util.*;
 
 public class List_Linked {
 
-    LinkedList<String> names = new LinkedList();
+    LinkedList<String> names = new LinkedList<String>();
 
-    public LinkedList<String> GetNames() {
+    public String GetNames() {
 
         names.add("moshe");
         names.add("Alex");
@@ -16,27 +18,33 @@ public class List_Linked {
         names.addFirst("Bob");
         names.addFirst("Chris");
         names.addLast("Jimmy");
-        System.out.println(names);
-
-        names.set(3, "Tower");
-        System.out.println(names);
-
-        names.add(4, "Shower");
-        System.out.println(names);
 
 
-        names.remove("moshe");
-        System.out.println(names);
-
-        System.out.println(names.contains("moshe"));
-        System.out.println(names.contains("Chris"));
-
-        System.out.println(names.indexOf("Danny"));
 
 
-        return names;
+       ListIterator<String>iterator= names.listIterator();
+
+        if(iterator.hasNext()){
+            iterator.next();
+            iterator.add("Moshiko");
+
+        }
+        for(String i:names){
+            System.out.println(i+" ");
+
+        }
+
+
+
+
+
+return iterator.next();
 
     }
 }
+
+
+
+
 
 

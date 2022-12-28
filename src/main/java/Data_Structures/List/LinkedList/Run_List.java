@@ -4,7 +4,7 @@ public class Run_List {
     public static void main(String[] args) {
 
         List_Linked List = new List_Linked();
+         List.GetNames();
 
-        System.out.println(List.GetNames());
     }
 }

@@ -1,4 +1,4 @@
-package Data_Structures.List;
+package Data_Structures.List.LinkedList.BasicLoop;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

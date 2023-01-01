@@ -1,7 +1,6 @@
-package Data_Structures.List.LinkedList;
+package Data_Structures.List.LinkedList.BasicLoop;
 
 
-import com.beust.ah.A;
 
 import java.util.*;
 

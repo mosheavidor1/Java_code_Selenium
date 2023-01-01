@@ -1,20 +1,41 @@
 package Data_Structures.List.LinkedList.ReverseDouble;
 
+import javax.print.event.PrintEvent;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
 
-        DoublyLinkedList list =new DoublyLinkedList();
+    DoubleLinkedList list = new DoubleLinkedList();
 
-        LinkedList<Integer> data = new LinkedList<>();
-        data.add(1);
-        data.add(2);
-        data.add(3);
-        data.add(4);
-        data.add(5);
+list.getData(1);
+list.getData(2);
+list.getData(3);
+list.getData(4);
+list.getData(5);
 
-        System.out.println(list.reverse(list.prev, data));
+list.print();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

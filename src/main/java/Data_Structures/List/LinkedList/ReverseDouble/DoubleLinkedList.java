@@ -19,6 +19,7 @@ public class DoubleLinkedList {
     }
     DoublyLinkedList head;
 
+
         DoublyLinkedList reverse() {
 
             DoublyLinkedList current_node = head;
@@ -42,8 +43,10 @@ public class DoubleLinkedList {
             newData.next = head;
             if (head != null) {
                 head.prev = newData;
+
             }
             head = newData;
+
 
 
         }

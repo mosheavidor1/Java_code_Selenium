@@ -1,52 +1,43 @@
 package InterviewPractice.Basic_Study;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class SumOfArrays {
 
 
     public static void main(String[] args) {
-        int []a= {2,4};
-        int []b= {3,10};
-        System.out.println(Arrays.toString(Sum(a,b)));
+        int[] a = {2, 4};
+        int[] b = {3, 10};
+        System.out.println(Arrays.toString(Sum(a, b)));
 
 
     }
 
 
-    public static int [] Sum(int[] A,int[] B){
+    public static int[]Sum(int[] A, int[] B) {
+
+        int C[]=new int[2];
 
 
-        int[] C = new int[2];
-
-        for(int i=0;i<A.length;i++){
-            for(int j=0;j<B.length;j++) {
-             C[0] = A[0] + B[0];
-
-
-
-
-
-            }
-            while (true){
-                C[0]=A[0]+B[0];
-                A[0]++;
-                B[0]++;
-                C[0]++;
-
+        try {
+            for (int i = 0; i <= A.length; i++) {
+                C[i]= A[i] + B[i];
+                for (int j = 0; j <= B.length; j++) {
+                    C[j]=A[j]+B[j];
+                }
 
             }
+
+
+        } catch (ArrayIndexOutOfBoundsException e) {
 
         }
         return C;
-
     }
-
 }
-
-
-
-
 
 
 

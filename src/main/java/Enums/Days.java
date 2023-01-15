@@ -4,6 +4,7 @@ public enum Days{
 
 SUNDAY("firstDay"),Monday("SecondDay"),Tuesday("ThirdDay");
 
+
 private  String count;
 
 private Days(String count){
@@ -13,5 +14,6 @@ private Days(String count){
 
     public String getCount() {
         return count;
+
     }
 }

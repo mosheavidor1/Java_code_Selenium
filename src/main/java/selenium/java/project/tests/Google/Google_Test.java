@@ -11,15 +11,7 @@ import selenium.java.project.infra.Properties.selenium.properties.Selenium_FireF
 public class Google_Test {
 
 
-    @AfterTest
 
-    public static void Close_Browser() throws Exception {
-
-        Close_Browser b = new Close_Browser();
-        // b.Close_Chrome();
-
-
-    }
 
     @BeforeTest
 
@@ -41,6 +33,17 @@ public class Google_Test {
 
         Install Install_software = new Install();
         Install_software.install_CC();
+
+    }
+
+
+    @AfterTest
+
+    public static void Close_Browser() throws Exception {
+
+        Close_Browser b = new Close_Browser();
+        // b.Close_Chrome();
+
 
     }
 }

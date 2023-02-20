@@ -1,6 +1,7 @@
 package selenium.java.project.infra.YouTube;
 
 
+import io.qameta.allure.Step;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,7 +22,7 @@ public class Testing {
 
 
     @Test
-
+    @Step
     public void Test_01() {
 
 
